@@ -44,9 +44,9 @@ Saving Results: The final overlay image, which highlights differences between th
 
 Ensure you have the necessary libraries installed:
 
-'''
+#
 pip install pdf2image opencv-python-headless numpy Pillow matplotlib
-'''
+#
 
 To use the script, simply run it in a Jupyter notebook or other Python environment. Modify the pdf_path and save_path parameters as needed to specify the input PDF files and the desired location for the processed images.
 
