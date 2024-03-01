@@ -22,7 +22,7 @@ Implementation Details
 
 pdf2image: For converting PDF files into images.
 
-cv2 (OpenCV): For image processing tasks such as conversion to grayscale, calculating differences between images, and creating overlays.
+cv2 (OpenCV): For image processing tasks such as conversion to grayscale, calculating differences between images and creating overlays.
 
 numpy: For handling arrays and performing numerical operations on image data.
 
@@ -36,7 +36,7 @@ PDF Conversion and Processing: The script starts by converting a PDF file into a
 
 Displaying Processed Images: The processed images are displayed using matplotlib, allowing for a visual inspection of the images after conversion and processing.
 
-Highlighting Differences: To highlight differences between two images, the script first ensures that both images have the same dimensions. It then calculates the absolute difference between the images, inverts the difference image to make discrepancies more visible, and normalizes the result. This difference image is then overlaid on one of the original images, creating a composite image that visually highlights the differences.
+Highlighting Differences: To highlight differences between two images, the script first ensures that both images have the same dimensions. It then calculates the absolute difference between the images, inverts the difference image to make discrepancies more visible and normalizes the result. This difference image is then overlaid on one of the original images, creating a composite image that visually highlights the differences.
 
 Saving Results: The final overlay image, which highlights differences between the two processed images, is saved to disk as a JPEG file.
 
